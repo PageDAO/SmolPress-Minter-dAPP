@@ -41,7 +41,7 @@ switch (NET) {
         MarketplaceContractAddr = '0xCFA7cA9fD5d32A6E9104aC849b1094Ea8c71e294'
         break;
         
-    case 'arbitrum':
+    case 'arbitrum one':
         ComunityContractAddr = '0xdf67df1C4cE31e98Fb39a47fb54c8bb6cFd2F677'
         UniftyContractAddr = '0xB20dE3908b070b55B7E844579A1A198f59b414E4'
         MembershipContractAddr = ''
