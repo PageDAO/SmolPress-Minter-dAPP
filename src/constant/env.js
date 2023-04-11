@@ -1,5 +1,5 @@
-const ALCHEMY_PRC_URL = "https://polygon-mainnet.g.alchemy.com/v2/f5LpbJ2eyEurydCMDameDYSJmLa8pPyS"
-const NET = 'goerli' // polygon, rinkeby, mumbai, goerli
+const ALCHEMY_PRC_URL = "https://arbitrum-one.public.blastapi.io"
+const NET = 'arbitrum one' // polygon, rinkeby, mumbai, goerli, optimism, arbitrum one
 // const API_URL = 'http://192.168.104.27:3001/api'
 // const API_URL = 'https://nftbb-minter-backend.herokuapp.com/api'
 // todo: change this to dev server
@@ -45,6 +45,14 @@ switch (NET) {
     TOKEN_ID = ''
     break;
 
+  case 'arbitrum one':
+    CHAIN_ID = 42161
+    CHAIN_ID_HEX = '0xA4B1'
+    ETHERSCAN_URL = 'https://arbiscan.io/'
+    OPENSEA_URL = 'https://opensea.io/assets/arbitrum'
+    TOKEN_ID = '0'
+    break;
+    
   default:
     break;
 }
