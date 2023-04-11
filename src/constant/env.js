@@ -45,7 +45,7 @@ switch (NET) {
     TOKEN_ID = ''
     break;
 
-  case 'arbitrum one':
+  case 'arbitrum-one':
     CHAIN_ID = 42161
     CHAIN_ID_HEX = '0xA4B1'
     ETHERSCAN_URL = 'https://arbiscan.io/'
