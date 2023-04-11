@@ -230,6 +230,7 @@ const Second = (props) => {
                     <img src='/assets/no_member.png' className="mt_15 mb_25" alt="img" />
                     <div className={styles.footer}>
                         <div className="body_2">Network: Polygon</div>
+                        //can we make this show the network the user is connected to instead of just saying Polygon?
                         <div className={styles.divider}></div>
                         <a href="https://membership.nftbookbazaar.com"
                             className="d_flex align_items_center" target="_blank" rel="noreferrer">
