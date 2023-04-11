@@ -1,4 +1,4 @@
-const ALCHEMY_PRC_URL = "https://arbitrum-one.public.blastapi.io"
+const ALCHEMY_PRC_URL = "https://endpoints.omniatech.io/v1/arbitrum/one/public"
 const NET = 'arbitrum one' // polygon, rinkeby, mumbai, goerli, optimism, arbitrum one
 // const API_URL = 'http://192.168.104.27:3001/api'
 // const API_URL = 'https://nftbb-minter-backend.herokuapp.com/api'
